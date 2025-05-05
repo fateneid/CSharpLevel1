@@ -10,6 +10,13 @@ namespace CSharpLevel1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("My Name is Faten");
+            Console.WriteLine("I'm Learning C#");
+            Console.WriteLine("It's an easy language to learn :-)");
+            Console.WriteLine("The sum of 10 + 20 is " + (10 + 20));
+            Console.ReadKey();
+
         }
     }
 }
