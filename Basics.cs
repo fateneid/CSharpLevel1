@@ -11,13 +11,13 @@ namespace CSharpLevel1
 
         public static void Output()
         {
-            Console.WriteLine("::::::::::::::::::::::::WriteLine::::::::::::::::::::::::");
+            Console.WriteLine("\n::::::::::::::::::::::::WriteLine::::::::::::::::::::::::");
             Console.WriteLine("Hello World!");
             Console.WriteLine("My Name is Faten");
             Console.WriteLine("I am Learning C#");
             Console.WriteLine("It is an easy language to learn :-)");
             Console.WriteLine("The sum of 10 + 20 is " + (10 + 20));
-            Console.WriteLine("The sum of 10 + 20 is " + 10 + 20 + "without brackets");
+            Console.WriteLine("The sum of 10 + 20 is " + 10 + 20 + " without brackets");
             Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 
             Console.WriteLine("\n::::::::::::::::::::::::::Write::::::::::::::::::::::::::");
@@ -63,7 +63,62 @@ namespace CSharpLevel1
             Console.WriteLine("\a");
             Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 
-            Console.ReadKey();
+        }
+
+        public static void Comment()
+        {
+
+            Console.WriteLine("\n:::::::::::::::::::::::::Comment:::::::::::::::::::::::::");
+
+            //this is a single line comment 
+
+            Console.Write("I Love C# ^^");
+
+            /*
+
+             This is 
+             a multiple line
+             comment.
+
+             */
+            Console.WriteLine("\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
+        }
+
+        public static void Variables()
+        {
+
+            Console.WriteLine("\n::::::::::::::::::::::::Variables::::::::::::::::::::::::");
+
+            string MyName = "Faten";
+            Console.WriteLine(MyName);
+
+            int x = 10; int y = 20;
+
+            Console.WriteLine("x = " + x);
+            Console.WriteLine("y = " + y);
+
+            Console.WriteLine("x + y = " + x + y + " <= wrong ans"); //wrong
+            Console.WriteLine("x + y = " + (x + y));
+
+            double MyDouble = 25.89D;
+            char MyLetter = 'F';
+            bool MyBool = true;
+
+            Console.WriteLine("MyDouble = " + MyDouble);
+            Console.WriteLine("MyLetter = " + MyLetter);
+            Console.WriteLine("MyBool = " + MyBool);
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
+            Console.WriteLine("\n::::::::::::::::Implicitly TypedVariables::::::::::::::::");
+
+            var l = 10;
+            var m = 10.5;
+            var n = "Faten";
+            Console.WriteLine("L = {0}, M = {1}, N = {2}", l, m, n);
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 
         }
 

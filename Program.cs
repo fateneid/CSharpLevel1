@@ -12,6 +12,11 @@ namespace CSharpLevel1
         {
 
             Basics.Output();
+            Basics.Comment();
+            Basics.Variables();
+
+
+            Console.ReadKey();
 
         }
     }
