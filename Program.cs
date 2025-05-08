@@ -14,7 +14,7 @@ namespace CSharpLevel1
             Basics.Output();
             Basics.Comment();
             Basics.Variables();
-
+            Basics.NumbersDatatypes();
 
             Console.ReadKey();
 
