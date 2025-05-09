@@ -125,6 +125,8 @@ namespace CSharpLevel1
         public static void NumbersDatatypes()
         {
 
+            Console.WriteLine("\n::::::::::::::::::::Numbers Datatypes::::::::::::::::::::");
+
             //Byte
             byte b1 = 255;
             //  byte b2 = -128;// compile-time error: Constant value '-128' cannot be converted to a 'byte'
@@ -225,6 +227,32 @@ namespace CSharpLevel1
 
             Console.WriteLine(hex);
             Console.WriteLine(binary);
+
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
+        }
+
+        public static void DefaultValues()
+        {
+
+            //get default value using default(type)
+            int i = default(int); // 0
+            float f = default(float);// 0
+            decimal d = default(decimal);// 0
+            bool b = default(bool);// false
+            char c = default(char);// '\0'
+
+            // C# 7.1 onwards
+            //get default value using default
+            int i2 = default; // 0
+            float f2 = default;// 0
+            decimal d2 = default;// 0
+            bool b2 = default;// false
+            char c2 = default;// '\0'
+
+            Console.WriteLine("i = {0}, f = {1}, d = {2}, b = {3}, c = {4}", i, f, d, b, c);
+            Console.WriteLine("i2 = {0}, f2 = {1}, d2 = {2}, b2 = {3}, c2 = {4}", i2, f2, d2, b2, c2);
 
         }
 
