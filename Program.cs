@@ -11,11 +11,14 @@ namespace CSharpLevel1
         static void Main(string[] args)
         {
 
-            Basics.Output();
-            Basics.Comment();
-            Basics.Variables();
-            Basics.NumbersDatatypes();
-            Basics.DefaultValues();
+            //Basics.Output();
+            //Basics.Comment();
+            //Basics.Variables();
+            //Basics.NumbersDatatypes();
+            //Basics.DefaultValues();
+            Basics.Enum();
+            Basics.NullableTypes();
+
 
             Console.ReadKey();
 

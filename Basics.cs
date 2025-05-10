@@ -236,6 +236,8 @@ namespace CSharpLevel1
         public static void DefaultValues()
         {
 
+            Console.WriteLine("\n::::::::::::::::::::::DefaultValues::::::::::::::::::::::");
+
             //get default value using default(type)
             int i = default(int); // 0
             float f = default(float);// 0
@@ -253,6 +255,92 @@ namespace CSharpLevel1
 
             Console.WriteLine("i = {0}, f = {1}, d = {2}, b = {3}, c = {4}", i, f, d, b, c);
             Console.WriteLine("i2 = {0}, f2 = {1}, d2 = {2}, b2 = {3}, c2 = {4}", i2, f2, d2, b2, c2);
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
+        }
+
+        //Enums
+        enum enWeekDays
+        {
+            Monday,     // 0
+            Tuesday,    // 1
+            Wednesday,  // 2
+            Thursday,   // 3
+            Friday,     // 4
+            Saturday,   // 5
+            Sunday      // 6
+        }
+
+        //if you set a value , it will auto number everything after it.
+        enum enCategories
+        {
+            Electronics,    // 0
+            Food,           // 1
+            Automotive = 6, // 6
+            Arts,           // 7
+            BeautyCare,     // 8
+            Fashion         // 9
+        }
+
+        //Enum can have any numarical data type byte, sbyte, short, ushort, int, uint, long, or ulong
+        //but not string
+        enum enCategories2 : byte
+        {
+            Electronics = 1,
+            Food = 5,
+            Automotive = 6,
+            Arts = 10,
+            BeautyCare = 11,
+            Fashion = 15
+        }
+
+        public static void Enum()
+        {
+
+            Console.WriteLine("\n::::::::::::::::::::::::::Enums::::::::::::::::::::::::::");
+
+            enWeekDays WeekDays = enWeekDays.Friday;
+            Console.WriteLine(WeekDays);
+            Console.WriteLine("Friday's order is {0}", (int)enWeekDays.Friday);
+
+            enCategories Categories = enCategories.Arts;
+            Console.WriteLine(Categories);
+
+            enCategories2 Categories2 = enCategories2.BeautyCare;
+            Console.WriteLine(Categories2);
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
+        }
+
+        public static void NullableTypes()
+        {
+
+            Console.WriteLine("\n::::::::::::::::::::::NullableTypes::::::::::::::::::::::");
+
+            //  Nullable<int> can be assigned any value
+            //  from -2147483648 to 2147483647, or a null value.
+
+            Nullable<int> i = null;
+            Console.WriteLine("null int: {0}",i);
+
+            string s = null;
+            Console.WriteLine("null string: {0}", s);
+
+            /*
+             * Integral types (e.g., int, long, short, byte, uint, ulong, ushort, sbyte)
+             * Floating-point types (e.g., float, double)
+             * Decimal type (decimal)
+             * Boolean type (bool)
+             * Character type (char)
+             * Structs (custom value types)
+             * Reference types like string, object, or any class types cannot be used with Nullable<T>.
+               They are inherently nullable without needing the Nullable<T> wrapper.
+             */
+
+            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+
 
         }
 
