@@ -19,7 +19,8 @@ namespace CSharpLevel1
             //Basics.Enum();
             //Basics.NullableTypes();
             //Basics.AnonymousType();
-            Basics.Struct();
+            //Basics.Struct();
+            Basics.DynamicType();
 
 
             Console.ReadKey();
