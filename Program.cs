@@ -16,8 +16,9 @@ namespace CSharpLevel1
             //Basics.Variables();
             //Basics.NumbersDatatypes();
             //Basics.DefaultValues();
-            Basics.Enum();
-            Basics.NullableTypes();
+            //Basics.Enum();
+            //Basics.NullableTypes();
+            Basics.AnonymousType();
 
 
             Console.ReadKey();
