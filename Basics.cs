@@ -11,27 +11,27 @@ namespace CSharpLevel1
 
         public static void Output()
         {
-            Console.WriteLine("\n::::::::::::::::::::::::WriteLine::::::::::::::::::::::::");
+            Console.WriteLine("\n________________________WriteLine________________________");
             Console.WriteLine("Hello World!");
             Console.WriteLine("My Name is Faten");
             Console.WriteLine("I am Learning C#");
             Console.WriteLine("It is an easy language to learn :-)");
             Console.WriteLine("The sum of 10 + 20 is " + (10 + 20));
             Console.WriteLine("The sum of 10 + 20 is " + 10 + 20 + " without brackets");
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
-            Console.WriteLine("\n::::::::::::::::::::::::::Write::::::::::::::::::::::::::");
+            Console.WriteLine("\n__________________________Write__________________________");
             Console.Write("Hello World!");
             Console.Write(" My Name is Faten");
             Console.Write(" and I am Learning C#.");
-            Console.WriteLine("\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("\n_________________________________________________________");
 
-            Console.WriteLine("\n:::::::::::::::::::::FormattedString:::::::::::::::::::::");
+            Console.WriteLine("\n_____________________FormattedString_____________________");
             Console.WriteLine("{0} {1}", "Welcome to", "ProgrammingAvices");
             Console.WriteLine("Hi! My Name is: {0} and I live in {1} ", "Faten", "Egypt");
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
-            Console.WriteLine("\n::::::::::::::::::::Escape Characters::::::::::::::::::::");
+            Console.WriteLine("\n____________________EscapeCharacters_____________________");
             Console.WriteLine("Useful Escape Characters:\n");
 
             //Newline
@@ -61,14 +61,14 @@ namespace CSharpLevel1
             //Alert
             Console.WriteLine("Alert:");
             Console.WriteLine("\a");
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
         public static void Comment()
         {
 
-            Console.WriteLine("\n:::::::::::::::::::::::::Comment:::::::::::::::::::::::::");
+            Console.WriteLine("\n_________________________Comment_________________________");
 
             //this is a single line comment 
 
@@ -81,14 +81,14 @@ namespace CSharpLevel1
              comment.
 
              */
-            Console.WriteLine("\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("\n_________________________________________________________");
 
         }
 
         public static void Variables()
         {
 
-            Console.WriteLine("\n::::::::::::::::::::::::Variables::::::::::::::::::::::::");
+            Console.WriteLine("\n________________________Variables________________________");
 
             string MyName = "Faten";
             Console.WriteLine(MyName);
@@ -109,23 +109,27 @@ namespace CSharpLevel1
             Console.WriteLine("MyLetter = " + MyLetter);
             Console.WriteLine("MyBool = " + MyBool);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
-            Console.WriteLine("\n::::::::::::::::Implicitly TypedVariables::::::::::::::::");
+        }
+
+        public static void ImplicitlyTypedVariables()
+        {
+            Console.WriteLine("\n_______________Implicitly Typed-Variables________________");
 
             var l = 10;
             var m = 10.5;
             var n = "Faten";
             Console.WriteLine("L = {0}, M = {1}, N = {2}", l, m, n);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
         public static void NumbersDatatypes()
         {
 
-            Console.WriteLine("\n::::::::::::::::::::Numbers Datatypes::::::::::::::::::::");
+            Console.WriteLine("\n____________________Numbers Datatypes____________________");
 
             //Byte
             byte b1 = 255;
@@ -228,15 +232,14 @@ namespace CSharpLevel1
             Console.WriteLine(hex);
             Console.WriteLine(binary);
 
-
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
         public static void DefaultValues()
         {
 
-            Console.WriteLine("\n::::::::::::::::::::::DefaultValues::::::::::::::::::::::");
+            Console.WriteLine("\n______________________DefaultValues______________________");
 
             //get default value using default(type)
             int i = default(int); // 0
@@ -256,7 +259,7 @@ namespace CSharpLevel1
             Console.WriteLine("i = {0}, f = {1}, d = {2}, b = {3}, c = {4}", i, f, d, b, c);
             Console.WriteLine("i2 = {0}, f2 = {1}, d2 = {2}, b2 = {3}, c2 = {4}", i2, f2, d2, b2, c2);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
@@ -298,7 +301,7 @@ namespace CSharpLevel1
         public static void Enum()
         {
 
-            Console.WriteLine("\n::::::::::::::::::::::::::Enums::::::::::::::::::::::::::");
+            Console.WriteLine("\n__________________________Enums__________________________");
 
             enWeekDays WeekDays = enWeekDays.Friday;
             Console.WriteLine(WeekDays);
@@ -310,14 +313,14 @@ namespace CSharpLevel1
             enCategories2 Categories2 = enCategories2.BeautyCare;
             Console.WriteLine(Categories2);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
         public static void NullableTypes()
         {
 
-            Console.WriteLine("\n::::::::::::::::::::::NullableTypes::::::::::::::::::::::");
+            Console.WriteLine("\n______________________NullableTypes______________________");
 
             //  Nullable<int> can be assigned any value
             //  from -2147483648 to 2147483647, or a null value.
@@ -339,14 +342,14 @@ namespace CSharpLevel1
                They are inherently nullable without needing the Nullable<T> wrapper.
              */
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
 
         }
 
         public static void AnonymousType()
         {
-            Console.WriteLine("\n::::::::::::::::::::::AnonymousType::::::::::::::::::::::");
+            Console.WriteLine("\n______________________AnonymousType______________________");
 
             //you dont specify any type here , automatically will be specified
             var student = new { Id = 40, FirstName = "Some", LastName = "One" };
@@ -384,7 +387,7 @@ namespace CSharpLevel1
             Console.WriteLine(student2.Address.Country);
             Console.WriteLine(student2.Address);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
@@ -397,7 +400,7 @@ namespace CSharpLevel1
         public static void Struct()
         {
 
-            Console.WriteLine("\n:::::::::::::::::::::::::Struct :::::::::::::::::::::::::");
+            Console.WriteLine("\n_________________________Struct__________________________");
 
             //A struct object can be created with or without the new operator,
             //same as primitive type variables.
@@ -415,14 +418,14 @@ namespace CSharpLevel1
             Console.WriteLine(Student2.FirstName);
             Console.WriteLine(Student2.LastName);
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 
         public static void DynamicType()
         {
 
-            Console.WriteLine("\n:::::::::::::::::::::::DynamicType:::::::::::::::::::::::");
+            Console.WriteLine("\n_______________________DynamicType_______________________");
 
             dynamic MyDynamicVar = 100;
             Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
@@ -439,7 +442,7 @@ namespace CSharpLevel1
             MyDynamicVar = 'F';
             Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
 
-            Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+            Console.WriteLine("_________________________________________________________");
 
         }
 

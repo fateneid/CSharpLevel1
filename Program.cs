@@ -14,16 +14,26 @@ namespace CSharpLevel1
             //Basics.Output();
             //Basics.Comment();
             //Basics.Variables();
+            //Basics.ImplicitlyTypedVariables();
             //Basics.NumbersDatatypes();
             //Basics.DefaultValues();
             //Basics.Enum();
             //Basics.NullableTypes();
             //Basics.AnonymousType();
             //Basics.Struct();
-            Basics.DynamicType();
+            //Basics.DynamicType();
+
+            MyDateTime.SetDateTime();
+            MyDateTime.CurrentDatetime();
+            MyDateTime.GetTicks();
+            MyDateTime.DateTimeStaticFields();
+            MyDateTime.GetTimeSpan();
+            MyDateTime.Operators();
+            MyDateTime.StringToDateTime();
 
 
             Console.ReadKey();
+
 
         }
     }
