@@ -23,14 +23,16 @@ namespace CSharpLevel1
             //Basics.Struct();
             //Basics.DynamicType();
 
-            MyDateTime.SetDateTime();
-            MyDateTime.CurrentDatetime();
-            MyDateTime.GetTicks();
-            MyDateTime.DateTimeStaticFields();
-            MyDateTime.GetTimeSpan();
-            MyDateTime.Operators();
-            MyDateTime.StringToDateTime();
+            //MyDateTime.SetDateTime();
+            //MyDateTime.CurrentDatetime();
+            //MyDateTime.GetTicks();
+            //MyDateTime.DateTimeStaticFields();
+            //MyDateTime.GetTimeSpan();
+            //MyDateTime.Operators();
+            //MyDateTime.StringToDateTime();
 
+            MyString.Strings();
+            MyString.StringInterpolation();
 
             Console.ReadKey();
 
