@@ -31,8 +31,14 @@ namespace CSharpLevel1
             //MyDateTime.Operators();
             //MyDateTime.StringToDateTime();
 
-            MyString.Strings();
-            MyString.StringInterpolation();
+            //MyString.Strings();
+            //MyString.StringInterpolation();
+
+            TypeCasting.ImplicitCasting();
+            TypeCasting.ExplicitCasting();
+            TypeCasting.TypeConversionMethods();
+            TypeCasting.EnumsConversion();
+
 
             Console.ReadKey();
 
