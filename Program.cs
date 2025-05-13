@@ -39,8 +39,16 @@ namespace CSharpLevel1
             //TypeCasting.TypeConversionMethods();
             //TypeCasting.EnumsConversion();
 
-            UserInput.GetUserInput();
-            UserInput.GetUserInputNumbers();
+            //UserInput.GetUserInput();
+            //UserInput.GetUserInputNumbers();
+
+            Operators.AssignmentOperators();
+            Operators.ArithmeticOperators();
+            Operators.RelationalOperators();
+            Operators.LogicalOperators();
+            Operators.UnaryOperators();
+            Operators.TernaryOperator();
+            Operators.BitwiseOperators();
 
 
             Console.ReadKey();
