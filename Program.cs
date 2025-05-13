@@ -34,10 +34,13 @@ namespace CSharpLevel1
             //MyString.Strings();
             //MyString.StringInterpolation();
 
-            TypeCasting.ImplicitCasting();
-            TypeCasting.ExplicitCasting();
-            TypeCasting.TypeConversionMethods();
-            TypeCasting.EnumsConversion();
+            //TypeCasting.ImplicitCasting();
+            //TypeCasting.ExplicitCasting();
+            //TypeCasting.TypeConversionMethods();
+            //TypeCasting.EnumsConversion();
+
+            UserInput.GetUserInput();
+            UserInput.GetUserInputNumbers();
 
 
             Console.ReadKey();
