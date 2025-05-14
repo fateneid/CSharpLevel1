@@ -42,13 +42,23 @@ namespace CSharpLevel1
             //UserInput.GetUserInput();
             //UserInput.GetUserInputNumbers();
 
-            Operators.AssignmentOperators();
-            Operators.ArithmeticOperators();
-            Operators.RelationalOperators();
-            Operators.LogicalOperators();
-            Operators.UnaryOperators();
-            Operators.TernaryOperator();
-            Operators.BitwiseOperators();
+            //Operators.AssignmentOperators();
+            //Operators.ArithmeticOperators();
+            //Operators.RelationalOperators();
+            //Operators.LogicalOperators();
+            //Operators.UnaryOperators();
+            //Operators.TernaryOperator();
+            //Operators.BitwiseOperators();
+
+            ControlFlow.IfElseStatement();
+            ControlFlow.SwitchStatement();
+            ControlFlow.TernaryOperator();
+            ControlFlow.ForLoop();
+            ControlFlow.WhileLoop();
+            ControlFlow.DoWhileLoop();
+            ControlFlow.BreakStatement();
+            ControlFlow.ContinueStatement();
+
 
 
             Console.ReadKey();
