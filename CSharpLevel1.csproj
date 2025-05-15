@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays.cs" />
     <Compile Include="Basics.cs" />
     <Compile Include="ControlFlow.cs" />
     <Compile Include="MyDateTime.cs" />

@@ -50,14 +50,18 @@ namespace CSharpLevel1
             //Operators.TernaryOperator();
             //Operators.BitwiseOperators();
 
-            ControlFlow.IfElseStatement();
-            ControlFlow.SwitchStatement();
-            ControlFlow.TernaryOperator();
-            ControlFlow.ForLoop();
-            ControlFlow.WhileLoop();
-            ControlFlow.DoWhileLoop();
-            ControlFlow.BreakStatement();
-            ControlFlow.ContinueStatement();
+            //ControlFlow.IfElseStatement();
+            //ControlFlow.SwitchStatement();
+            //ControlFlow.TernaryOperator();
+            //ControlFlow.ForLoop();
+            //ControlFlow.WhileLoop();
+            //ControlFlow.DoWhileLoop();
+            //ControlFlow.BreakStatement();
+            //ControlFlow.ContinueStatement();
+
+            Arrays.ArraysAreBound();
+            Arrays.ArrayDeclaration();
+
 
 
 
