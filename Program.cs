@@ -61,6 +61,8 @@ namespace CSharpLevel1
 
             Arrays.ArraysAreBound();
             Arrays.ArrayDeclaration();
+            Arrays.AccessArrayElements();
+            Arrays.TwoDimensionalArray();
 
 
 

@@ -41,8 +41,58 @@ namespace CSharpLevel1
 
             for (int i = 0; i < numbers.Length; i++) 
             {
-                Console.WriteLine("Element in index " + i + ": " + numbers[i]);
+                Console.WriteLine("Element at index " + i + ": " + numbers[i]);
             }
+
+            Console.WriteLine("_________________________________________________________");
+
+        }
+
+        public static void AccessArrayElements()
+        {
+
+            Console.WriteLine("\n__________________Access Array Elements__________________");
+
+            //create an array
+            int[] numbers = { 1, 2, 3 };
+
+            //access first element
+            Console.WriteLine("Element at first index : " + numbers[0]);
+
+            //access second element
+            Console.WriteLine("Element at second index : " + numbers[1]);
+
+            //access third element
+            Console.WriteLine("Element at third index : " + numbers[2]);
+
+            //through loop
+            Console.WriteLine("\nAccess array using loop:\n");
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine("Element at index {0} : {1} ", i, numbers[0]);
+            }
+
+            Console.WriteLine("_________________________________________________________");
+
+        }
+
+        public static void TwoDimensionalArray()
+        {
+
+            Console.WriteLine("\n___________________2 Dimensional Array___________________");
+
+            //initializing 2D array
+            int[ , ] numbers = { { 12, 13 }, { 55, 77 } };
+            // or int [ , ] numbers = new int[2, 2] { { 12, 13 }, { 55, 77 } };
+
+            // access first element from the first row
+            Console.WriteLine("Element at index [0, 0] : " + numbers[0, 0]);
+
+            // access first element from second row
+            Console.WriteLine("Element at index [1, 0] : " + numbers[1, 0]);
+
+            Console.WriteLine("Length of Rows: {0}", numbers.GetLength(0));
+            Console.WriteLine("Length of Columns: {0}", numbers.GetLength(1));
 
             Console.WriteLine("_________________________________________________________");
 
