@@ -63,7 +63,7 @@ namespace CSharpLevel1
             Arrays.ArrayDeclaration();
             Arrays.AccessArrayElements();
             Arrays.TwoDimensionalArray();
-
+            Arrays.ForeachLoop();
 
 
 
