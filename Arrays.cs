@@ -69,7 +69,7 @@ namespace CSharpLevel1
             Console.WriteLine("\nAccess array using loop:\n");
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine("Element at index {0} : {1} ", i, numbers[0]);
+                Console.WriteLine("Element at index {0} : {1} ", i, numbers[i]);
             }
 
             Console.WriteLine("_________________________________________________________");
@@ -113,7 +113,7 @@ namespace CSharpLevel1
             }
 
 
-            Console.WriteLine("Example 2:");
+            Console.WriteLine("\nExample 2:");
 
             char[] gender = { 'm', 'f', 'm', 'm', 'm', 'f', 'f', 'm', 'm', 'f' };
             int male = 0, female = 0;
@@ -126,6 +126,35 @@ namespace CSharpLevel1
             }
             Console.WriteLine("Number of male = {0}", male);
             Console.WriteLine("Number of female = {0}", female);
+
+            Console.WriteLine("_________________________________________________________");
+
+        }
+
+        public static void ArrayOperationsUsingSystemLinq()
+        {
+
+            Console.WriteLine("\n___________Array Operations using System.Linq____________");
+
+            //Note that we used System.Linq above. 
+            //provides us various methods to use in an array
+
+            int[] numbers = { 51, -1, 2, 14, 18, 40, 178 };
+
+            // get the minimum element
+            Console.WriteLine("Smallest  Element: " + numbers.Min());
+
+            // Max() returns the largest number in array
+            Console.WriteLine("Largest Element: " + numbers.Max());
+
+            // compute Count
+            Console.WriteLine("Count : " + numbers.Count());
+
+            // compute Sum
+            Console.WriteLine("Sum : " + numbers.Sum());
+
+            // compute the average
+            Console.WriteLine("Average: " + numbers.Average());
 
             Console.WriteLine("_________________________________________________________");
 

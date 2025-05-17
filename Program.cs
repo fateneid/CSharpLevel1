@@ -59,11 +59,12 @@ namespace CSharpLevel1
             //ControlFlow.BreakStatement();
             //ControlFlow.ContinueStatement();
 
-            Arrays.ArraysAreBound();
-            Arrays.ArrayDeclaration();
-            Arrays.AccessArrayElements();
-            Arrays.TwoDimensionalArray();
-            Arrays.ForeachLoop();
+            //Arrays.ArraysAreBound();
+            //Arrays.ArrayDeclaration();
+            //Arrays.AccessArrayElements();
+            //Arrays.TwoDimensionalArray();
+            //Arrays.ForeachLoop();
+            Arrays.ArrayOperationsUsingSystemLinq();
 
 
 
