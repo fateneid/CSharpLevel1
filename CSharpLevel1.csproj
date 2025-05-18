@@ -47,6 +47,7 @@
     <Compile Include="Basics.cs" />
     <Compile Include="ControlFlow.cs" />
     <Compile Include="CSharpMath.cs" />
+    <Compile Include="CSharpMethods.cs" />
     <Compile Include="MyDateTime.cs" />
     <Compile Include="MyString.cs" />
     <Compile Include="Operators.cs" />

@@ -66,7 +66,9 @@ namespace CSharpLevel1
             //Arrays.ForeachLoop();
             //Arrays.ArrayOperationsUsingSystemLinq();
 
-            CSharpMath.CSharpMathMethods();
+            //CSharpMath.CSharpMathMethods();
+
+            CSharpMethods.Methods();
 
 
 
