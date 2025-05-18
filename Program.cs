@@ -64,7 +64,9 @@ namespace CSharpLevel1
             //Arrays.AccessArrayElements();
             //Arrays.TwoDimensionalArray();
             //Arrays.ForeachLoop();
-            Arrays.ArrayOperationsUsingSystemLinq();
+            //Arrays.ArrayOperationsUsingSystemLinq();
+
+            CSharpMath.CSharpMathMethods();
 
 
 
