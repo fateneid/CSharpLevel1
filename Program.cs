@@ -68,7 +68,9 @@ namespace CSharpLevel1
 
             //CSharpMath.CSharpMathMethods();
 
-            CSharpMethods.Methods();
+            //CSharpMethods.Methods();
+
+            CSharpExceptions.Exceptions();
 
 
 

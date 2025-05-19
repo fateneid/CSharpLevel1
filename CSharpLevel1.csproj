@@ -46,6 +46,7 @@
     <Compile Include="Arrays.cs" />
     <Compile Include="Basics.cs" />
     <Compile Include="ControlFlow.cs" />
+    <Compile Include="CSharpExceptions.cs" />
     <Compile Include="CSharpMath.cs" />
     <Compile Include="CSharpMethods.cs" />
     <Compile Include="MyDateTime.cs" />
