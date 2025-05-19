@@ -70,8 +70,9 @@ namespace CSharpLevel1
 
             //CSharpMethods.Methods();
 
-            CSharpExceptions.Exceptions();
+            //CSharpExceptions.Exceptions();
 
+            //RandomFunction.RandomNumberFunction();
 
 
             Console.ReadKey();
